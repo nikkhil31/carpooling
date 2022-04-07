@@ -1,4 +1,4 @@
-import { Home, LocationSearch, SearchResults } from '../screens'
+import { Home, LocationSearch, RideDetails, SearchResults } from '../screens'
 
 export const tabs = {
   search: {
@@ -40,5 +40,11 @@ export const tabs = {
     title: 'Search Results',
     isInBottom: false,
     componant: SearchResults,
+  },
+  rideDetail: {
+    _id: 7,
+    title: 'Ride Details',
+    isInBottom: false,
+    componant: RideDetails,
   },
 }

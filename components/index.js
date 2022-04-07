@@ -17,3 +17,8 @@ of Search Loaction scrren componant */
 export { default as SearchBox } from './LocationSearch/SearchBox'
 export { default as CurrentLocation } from './LocationSearch/CurrentLocation'
 export { default as SearchResult } from './LocationSearch/SearchResult'
+
+/* Below all childcomponant are decenters
+of Search Result scrren componant */
+
+export { default as ResultGroup } from './SearchResult/ResultGroup'

@@ -6,7 +6,7 @@ export default function SearchBtn() {
   const navigation = useNavigation()
 
   const handleSearch = () => {
-    console.log('Go to search result!')
+    // console.log('Go to search result!')
     navigation.navigate('searchResults')
   }
 
