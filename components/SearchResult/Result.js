@@ -8,7 +8,7 @@ export default function Result() {
   const navigation = useNavigation()
   return (
     <TouchableOpacity
-      onPress={() => navigation.navigate('rideDetail')}
+      onPress={() => navigation.navigate('RideDetail')}
       style={styles.resultGrids}
     >
       {/* Grid */}

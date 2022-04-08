@@ -1,50 +1,28 @@
-import { Home, LocationSearch, RideDetails, SearchResults } from '../screens'
+import { HomeStack } from '../screens/Navigation'
 
 export const tabs = {
-  search: {
+  searchTab: {
     _id: 1,
     title: 'Search',
     icon: 'search',
-    isInBottom: true,
-    componant: Home,
+    componant: HomeStack,
   },
-  rides: {
+  ridesTab: {
     _id: 2,
     title: 'Your Rides',
     icon: 'map',
-    isInBottom: true,
-    componant: Home,
+    componant: HomeStack,
   },
   inbox: {
     _id: 3,
     title: 'Inbox',
     icon: 'inbox',
-    isInBottom: true,
-    componant: Home,
+    componant: HomeStack,
   },
   profile: {
     _id: 4,
     title: 'Profile',
     icon: 'user',
-    isInBottom: true,
-    componant: Home,
-  },
-  locationSearch: {
-    _id: 5,
-    title: 'Location Search',
-    isInBottom: false,
-    componant: LocationSearch,
-  },
-  searchResults: {
-    _id: 6,
-    title: 'Search Results',
-    isInBottom: false,
-    componant: SearchResults,
-  },
-  rideDetail: {
-    _id: 7,
-    title: 'Ride Details',
-    isInBottom: false,
-    componant: RideDetails,
+    componant: HomeStack,
   },
 }

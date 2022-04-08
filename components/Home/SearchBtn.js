@@ -7,7 +7,7 @@ export default function SearchBtn() {
 
   const handleSearch = () => {
     // console.log('Go to search result!')
-    navigation.navigate('searchResults')
+    navigation.navigate('Result')
   }
 
   return (

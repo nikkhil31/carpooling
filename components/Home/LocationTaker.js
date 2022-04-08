@@ -8,7 +8,7 @@ export default function LocationTaker({ navigation }) {
   const { leavingTo, goingTo } = useSelector(state => state.route)
 
   const handleLocation = type => {
-    navigation.navigate('locationSearch', { type })
+    navigation.navigate('Search', { type })
   }
 
   const active1 = JSON.stringify(leavingTo) !== '{}' && leavingTo?.city !== ''
